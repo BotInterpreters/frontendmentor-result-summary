@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Outfit:wght@500&family=Poppins&display=swap");
+
+body {
+  background-color: #fff;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-container {
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(95, 63, 252, 0.3);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(95, 63, 252, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(95, 63, 252, 0.3);
+  height: auto;
+  width: 800px;
+  max-width: 100%;
+  margin: 150px auto;
+}
+
+.result-container {
+  background: hsl(252, 100%, 67%);
+  background: linear-gradient(
+    180deg,
+    hsl(252, 100%, 67%) 20%,
+    rgba(46, 43, 233, 0.85) 80%
+  );
+  background: -webkit-linear-gradient(
+    280deg,
+    hsl(252, 100%, 67%) 20%,
+    rgba(46, 43, 233, 0.85) 80%
+  );
+  background: -moz-linear-gradient(
+    180deg,
+    hsl(252, 100%, 67%) 20%,
+    rgba(46, 43, 233, 0.85) 80%
+  );
+  float: left;
+  width: 50%;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  height: auto;
+}
+
+.result-row {
+  margin: 20px 10px;
+}
+
+.text-heading {
+  text-align: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 24px;
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.text-subheading {
+  text-align: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 32px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+}
+
+.text-paragraph {
+  text-align: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  padding: 1rem 4rem;
+}
+
+.reaction-item {
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  background-color: rgba(255, 87, 87, 0.1);
+}
+
+.memory-item {
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  background-color: rgba(255, 176, 31, 0.1);
+}
+
+.verbal-item {
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  background-color: rgba(0, 189, 145, 0.1);
+}
+
+.visual-item {
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  background-color: rgba(17, 37, 212, 0.1);
+}
+
+.continue-button {
+  background-color: #303b59;
+  color: #fff;
+  width: 94%;
+  height: 50px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+.text-summary {
+  color: #303B59;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 22px;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-weight:700;
+}
+
+.summary-container {
+ float: right; 
+ width: 50%;
+ background-color: #fff;
+}
+
+.rcircle {
+  width: 50%;
+  background: hsla(256, 72%, 46%, 1);
+  background: linear-gradient(
+    420deg,
+    hsla(256, 72%, 46%, 1) 20%,
+    hsla(241, 72%, 46%, 0) 80%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(256, 72%, 46%, 1) 20%,
+    hsla(241, 72%, 46%, 0) 80%
+  );
+  background: -moz-linear-gradient(
+    420deg,
+    hsla(256, 72%, 46%, 1) 20%,
+    hsla(241, 72%, 46%, 0) 80%
+  );
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  line-height: 0;
+  position: relative;
+}
+
+.rcircle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.rcircle .txt {
+  position: absolute;
+  bottom: 60%;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 48px;
+}
+
+.rcircle .sub-text {
+  position: absolute;
+  bottom: 80%;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: hsl(241, 100%, 89%);
+  font-size: 14px;
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 540px) and (max-device-width: 1024px) {
+
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+
+    .result-container {
+        background: hsl(252, 100%, 67%);
+        background: linear-gradient(
+          180deg,
+          hsl(252, 100%, 67%) 20%,
+          rgba(46, 43, 233, 0.85) 80%
+        );
+        background: -webkit-linear-gradient(
+          280deg,
+          hsl(252, 100%, 67%) 20%,
+          rgba(46, 43, 233, 0.85) 80%
+        );
+        background: -moz-linear-gradient(
+          180deg,
+          hsl(252, 100%, 67%) 20%,
+          rgba(46, 43, 233, 0.85) 80%
+        );
+        float: left;
+        width: 100%;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        height: auto;
+        border-radius: 0px 0px 20px 20px;
+      }
+
+      .main-container {
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px 0px rgba(95, 63, 252, 0.3);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(95, 63, 252, 0.3);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(95, 63, 252, 0.3);
+        height: auto;
+        width: 800px;
+        max-width: 100%;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    .summary-container {
+        float: right; 
+        width: 100%;
+        background-color: #fff;
+       }
+    
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation: portrait) {
+
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View *a/
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+}device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+}
